@@ -1,0 +1,5 @@
+/target/
+/qt/
+.project
+.classpath
+/.settings/
