@@ -1,0 +1,12 @@
+#ifndef WEBKIT4J_GLOBAL_H
+#define WEBKIT4J_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(WEBKIT4J_LIBRARY)
+#  define WEBKIT4JSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define WEBKIT4JSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // WEBKIT4J_GLOBAL_H
