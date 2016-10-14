@@ -1,5 +1,5 @@
 # webkit4j
-Chromium-based headless browser for java
+qtwebkit-based headless browser for java
 
 #Demo
 ```
